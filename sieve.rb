@@ -13,8 +13,8 @@ class Sieve
   end
 end
 
-# Highly optimized for performance by:
+# Optimized for performance by:
 #  - reducing the range / number of steps in both cycles dramatically
 #  - using 'numbers[n] = nil' and 'numbers.compact'
 #      instead of 'numbers.delete()'
-# 'numbers[0], numbers[1] = nil' help to simplify the rest of the code a lot
+# 'numbers[0], numbers[1] = nil' help simplify the rest of the code a lot
